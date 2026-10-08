@@ -1,0 +1,54 @@
+{
+  "Name": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
+  "BIDSVersion": "1.10.0",
+  "DatasetType": "raw",
+  "License": "CC-BY-4.0",
+  "Authors": [
+    "Matthias Dold",
+    "Joana Pereira",
+    "Bastian Sajonz",
+    "Volker A. Coenen",
+    "Jordy Thielen",
+    "Marcus L.F. Janssen",
+    "Michael Tangermann"
+  ],
+  "HowToAcknowledge": "Cite the dataset (Dold, M., Pereira, J., Sajonz, B., Coenen, V.A., Thielen, J., Janssen, M.L.F., Tangermann, M. (2024). LFP and ECoG data during CopyDraw task with deep brain stimulation - Dareplane data for proof of concept paper. Version 1. Radboud University. https://doi.org/10.34973/d214-m342) and the Dareplane paper (arXiv:2408.01242). The release asks to acknowledge: 'Data were provided (in part) by the Radboud University, Nijmegen, The Netherlands'.",
+  "Funding": [
+    "Dareplane collaboration project, co-funded by the PPP Allowance of Health Holland, Top Sector Life Sciences & Health, and the Dutch Brain Foundation (MD)",
+    "Deutsche Forschungsgemeinschaft, Walter Benjamin Program, project 510112977 (JP)",
+    "PD-Interaktiv I study: Bundesministerium fuer Bildung und Forschung, grant 16SV8011"
+  ],
+  "EthicsApprovals": [
+    "Ethics committee of the Medical Center - University of Freiburg, EK application 21-1545; study PD-Interaktiv I, DRKS000287039 (as stated in the paper)"
+  ],
+  "ReferencesAndLinks": [
+    "https://doi.org/10.34973/d214-m342",
+    "https://arxiv.org/abs/2408.01242",
+    "https://github.com/bsdlab/Dareplane"
+  ],
+  "DatasetDOI": "n/a",
+  "SourceDatasets": [
+    {
+      "DOI": "doi:10.34973/d214-m342",
+      "URL": "https://doi.org/10.34973/d214-m342",
+      "Version": "1"
+    }
+  ],
+  "Keywords": [
+    "deep brain stimulation",
+    "adaptive DBS",
+    "closed-loop",
+    "subthalamic nucleus",
+    "local field potential",
+    "ECoG",
+    "Parkinson's disease",
+    "CopyDraw",
+    "Dareplane"
+  ],
+  "GeneratedBy": [
+    {
+      "Name": "b3w11_convert_radboud.py",
+      "Description": "Neuro Omega .mat exports to BIDS-iEEG BrainVision (int16 counts unchanged); events from the Neuro Omega port and stimulation markers; privacy-scrubbed originals in sourcedata. Code in code/."
+    }
+  ]
+}

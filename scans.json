@@ -1,0 +1,18 @@
+{
+  "source_file": {
+    "Description": "Original Neuro Omega .mat export in sourcedata/ (export date in the MAT header set to day 01)"
+  },
+  "block": {
+    "Description": "CopyDraw block number from the source file name"
+  },
+  "file_part": {
+    "Description": "Neuro Omega file index (0001, 0002, ...) from the source file name; '-' when the name has none"
+  },
+  "condition": {
+    "Description": "stimoff / stimon (open-loop DBS) / closedloop (adaptive DBS), from the file name; suffix 'analog' = auxiliary analog-input file"
+  },
+  "neuro_omega_time_begin_s": {
+    "Description": "TimeBegin of the channels in this file on the Neuro Omega clock (s); runs are numbered in this order within a session",
+    "Units": "s"
+  }
+}

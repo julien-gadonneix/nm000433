@@ -1,0 +1,17 @@
+name	type	units	low_cutoff	high_cutoff	sampling_frequency	status	status_description	description
+CANALOG_IN_1	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_1 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_2	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_2 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_3	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_3 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_4	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_4 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_5	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_5 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_6	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_6 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_7	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_7 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CANALOG_IN_8	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CANALOG_IN_8 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_1	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_1 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_2	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_2 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_3	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_3 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_4	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_4 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_5	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_5 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_6	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_6 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_7	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_7 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25
+CADD_ANALOG_IN_8	MISC	n/a	n/a	n/a	2750.0	good	n/a	Neuro Omega analog input CADD_ANALOG_IN_8 (content not documented in the record); raw int16 counts; BitResolution 610.3515625, Gain 0.25

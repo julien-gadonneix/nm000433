@@ -1,0 +1,19 @@
+{
+  "TaskName": "copydraw",
+  "TaskDescription": "CopyDraw: the patient copies traces shown on a screen with a stylus on a Wacom tablet (Castano-Candamil et al. 2019); self-paced readiness confirmation (marker 50), then copy-drawing of a trace (markers 10-21 start, 110-121 end, ~9 s). Blocks were recorded with DBS OFF, with continuous open-loop DBS ON, or (day 4) with closed-loop adaptive DBS.",
+  "SamplingFrequency": 2750.0,
+  "PowerLineFrequency": 50,
+  "SoftwareFilters": "n/a",
+  "HardwareFilters": "n/a",
+  "Manufacturer": "Alpha Omega",
+  "ManufacturersModelName": "Neuro Omega",
+  "iEEGReference": "n/a (auxiliary analog inputs)",
+  "MiscChannelCount": 16,
+  "ECOGChannelCount": 0,
+  "SEEGChannelCount": 0,
+  "RecordingType": "continuous",
+  "RecordingDuration": 228.386545,
+  "ElectricalStimulation": false,
+  "AnalogInputTimeBeginSeconds": 8140.5301818181815,
+  "Description": "Auxiliary analog inputs recorded by the Neuro Omega at their native 2750.0 Hz during the same recording as sub-P001_ses-day3_task-copydraw_acq-stimoff_run-08_ieeg (Neuro Omega clock start 8140.530182 s vs 8140.530227 s for the 22 kHz channels)."
+}

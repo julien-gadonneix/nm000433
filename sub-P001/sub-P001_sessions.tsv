@@ -1,0 +1,4 @@
+session_id	days_after_implantation	brainamp_physiology_in_sourcedata	closed_loop_blocks
+ses-day2	2	yes	no
+ses-day3	3	yes	no
+ses-day4	4	no	yes

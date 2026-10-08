@@ -1,0 +1,12 @@
+{
+  "days_after_implantation": {
+    "Description": "Days after the first surgery (DBS-lead and ECoG-strip implantation with externalisation), from the session folder name and README",
+    "Units": "day"
+  },
+  "brainamp_physiology_in_sourcedata": {
+    "Description": "BrainAmp ExG heart rate, respiration and galvanic skin response (BrainVision, 5 kHz) present in sourcedata"
+  },
+  "closed_loop_blocks": {
+    "Description": "Session contains closed-loop adaptive DBS blocks"
+  }
+}

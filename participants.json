@@ -1,0 +1,24 @@
+{
+  "age": {
+    "Description": "Age at the recordings, as published (Dold et al., section 2.6)",
+    "Units": "year"
+  },
+  "sex": {
+    "Description": "As published",
+    "Levels": {
+      "F": "female"
+    }
+  },
+  "handedness": {
+    "Description": "As published",
+    "Levels": {
+      "R": "right"
+    }
+  },
+  "diagnosis": {
+    "Description": "As published"
+  },
+  "paper_id": {
+    "Description": "Patient label in Table 5 of the paper"
+  }
+}

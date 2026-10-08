@@ -1,0 +1,18 @@
+{
+  "hemisphere": {
+    "Description": "Hemisphere stated in the README/paper",
+    "Levels": {
+      "L": "left",
+      "R": "right"
+    }
+  },
+  "region_stated": {
+    "Description": "Implantation target stated in the README and paper (no localisation released)"
+  },
+  "manufacturer": {
+    "Description": "Electrode manufacturer stated in the paper"
+  },
+  "description": {
+    "Description": "Contact position as stated in the release README"
+  }
+}

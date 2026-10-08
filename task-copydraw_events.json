@@ -1,0 +1,15 @@
+{
+  "trial_type": {
+    "Description": "port_marker: hardware port CPORT__1 of the Neuro Omega (non-zero values; zero resets the port). stim_marker_<k>: Neuro Omega stimulation marker channel CStimMarker_<k> (README: arrival times of the stimulation pulses)."
+  },
+  "value": {
+    "Description": "port_marker: the port value as recorded. The CopyDraw paradigm codes (README: 10-21 trace start, 110-121 trace end, 50 readiness) are only partly reproduced by the port values on some days; the complete marker stream (CopyDrawParadigmMarkerStream) is in the XDF files in sourcedata on the LSL clock. stim_marker: the identifier stored with the marker by the Neuro Omega."
+  },
+  "sample": {
+    "Description": "onset x 22000 (0-based sample of the 22 kHz file)"
+  },
+  "onset": {
+    "Description": "marker timestamp (44 kHz Neuro Omega clock) minus TimeBegin of the 22 kHz channels, as in the authors' load_xdf.py",
+    "Units": "s"
+  }
+}
