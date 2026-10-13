@@ -26,12 +26,15 @@
     "https://arxiv.org/abs/2408.01242",
     "https://github.com/bsdlab/Dareplane"
   ],
-  "DatasetDOI": "n/a",
+  "DatasetDOI": "10.82901/nemar.nm000433",
   "SourceDatasets": [
     {
       "DOI": "doi:10.34973/d214-m342",
       "URL": "https://doi.org/10.34973/d214-m342",
       "Version": "1"
+    },
+    {
+      "DOI": "n/a"
     }
   ],
   "Keywords": [
@@ -50,5 +53,6 @@
       "Name": "b3w11_convert_radboud.py",
       "Description": "Neuro Omega .mat exports to BIDS-iEEG BrainVision (int16 counts unchanged); events from the Neuro Omega port and stimulation markers; privacy-scrubbed originals in sourcedata. Code in code/."
     }
-  ]
+  ],
+  "Version": "1.0.0"
 }
