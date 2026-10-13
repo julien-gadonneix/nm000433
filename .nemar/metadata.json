@@ -1,6 +1,11 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
+  "title": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
+  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex, acquired on days 2-4 after implantation. The patient performed the CopyDraw task with DBS off, continuous open-loop DBS, and closed-loop adaptive DBS controlled by the Dareplane platform. The dataset serves as a proof of concept for Dareplane, a modular open-source platform for BCI research and closed-loop deep brain stimulation.",
+  "methods_description": "STN local field potentials (16 directional-lead contacts), 4-contact epidural ECoG over left M1 and 4 EOG channels were recorded with a Neuro Omega system at 22 kHz across 41 recordings in three sessions. Conditions were stimulation off, open-loop stimulation on, and closed-loop adaptive stimulation (day 4). Events include hardware port markers and stimulation markers. Auxiliary analog inputs and original XDF/behavioural files are in sourcedata.",
+  "license": "CC-BY-4.0",
+  "dataset_type": "raw",
   "authors": {
     "Matthias Dold": {},
     "Joana Pereira": {},
@@ -10,70 +15,6 @@
     "Marcus L.F. Janssen": {},
     "Michael Tangermann": {}
   },
-  "related_identifiers": [
-    {
-      "identifier": "10.34973/d214-m342",
-      "identifier_type": "DOI",
-      "relation_type": "IsDerivedFrom"
-    },
-    {
-      "identifier": "https://github.com/nemarDatasets/nm000433",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "https://nemar.org/dataset/nm000433",
-      "identifier_type": "URL",
-      "relation_type": "IsDescribedBy"
-    }
-  ],
-  "funding_references": [
-    {
-      "funder_name": "Dareplane collaboration project, co-funded by the PPP Allowance of Health Holland, Top Sector Life Sciences & Health, and the Dutch Brain Foundation (MD)"
-    },
-    {
-      "funder_name": "Health Holland, Top Sector Life Sciences & Health (PPP Allowance) and Dutch Brain Foundation",
-      "award_title": "Dareplane collaboration project"
-    },
-    {
-      "funder_name": "Deutsche Forschungsgemeinschaft",
-      "award_number": "510112977",
-      "award_title": "Walter Benjamin Program"
-    },
-    {
-      "funder_name": "Bundesministerium für Bildung und Forschung",
-      "award_number": "16SV8011",
-      "award_title": "PD-Interaktiv I study"
-    }
-  ],
-  "title": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
-  "license": "CC-BY-4.0",
-  "dataset_type": "raw",
-  "resource_type_general": "Dataset",
-  "modalities": [
-    "ieeg"
-  ],
-  "resource_type_specific": "iEEG Dataset",
-  "sizes": [
-    "43.77 GB (301 files)"
-  ],
-  "formats": [
-    ".eeg",
-    ".hdf",
-    ".joblib",
-    ".json",
-    ".mat",
-    ".md",
-    ".py",
-    ".tsv",
-    ".txt",
-    ".vhdr",
-    ".vmrk",
-    ".xdf",
-    ".yaml"
-  ],
-  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex, acquired on days 2-4 after implantation. The patient performed the CopyDraw task with DBS off, continuous open-loop DBS, and closed-loop adaptive DBS run on the Dareplane platform. The dataset includes STN local field potentials, ECoG, EOG, auxiliary analog channels and event markers, and serves as a proof of concept for the Dareplane open-source BCI platform.",
-  "methods_description": "Recordings were made with a Neuro Omega system at 22 kHz (24 channels: 16 DBS contacts from Boston Scientific Vercise directional leads, 4 epidural ECoG contacts, 4 EOG channels) while the patient performed the CopyDraw task with stimulation off, open-loop on, or closed-loop adaptive DBS. ECoG was referenced to the left earlobe and DBS recordings to the left mastoid. Event markers came from the Neuro Omega port and stimulation marker channels.",
   "keywords": [
     {
       "term": "Deep Brain Stimulation",
@@ -102,11 +43,75 @@
       "term": "closed-loop adaptive DBS"
     },
     {
-      "term": "CopyDraw"
+      "term": "CopyDraw task"
     },
     {
       "term": "Dareplane"
     }
   ],
-  "source_hash": "78d33fc033028c4e9c473249d5ca888916cd6e6f52fcc4cd7c5c4d1906d5b84b"
+  "related_identifiers": [
+    {
+      "identifier": "10.34973/d214-m342",
+      "identifier_type": "DOI",
+      "relation_type": "IsDerivedFrom"
+    },
+    {
+      "identifier": "https://github.com/nemarDatasets/nm000433",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "https://nemar.org/dataset/nm000433",
+      "identifier_type": "URL",
+      "relation_type": "IsDescribedBy"
+    }
+  ],
+  "funding_references": [
+    {
+      "funder_name": "Dareplane collaboration project, co-funded by the PPP Allowance of Health Holland, Top Sector Life Sciences & Health, and the Dutch Brain Foundation (MD)"
+    },
+    {
+      "funder_name": "Health Holland, Top Sector Life Sciences & Health (PPP Allowance)",
+      "award_title": "Dareplane collaboration project"
+    },
+    {
+      "funder_name": "Dutch Brain Foundation",
+      "award_title": "Dareplane collaboration project"
+    },
+    {
+      "funder_name": "Deutsche Forschungsgemeinschaft",
+      "award_number": "510112977",
+      "award_title": "Walter Benjamin Program"
+    },
+    {
+      "funder_name": "Bundesministerium für Bildung und Forschung",
+      "award_number": "16SV8011",
+      "award_title": "PD-Interaktiv I"
+    }
+  ],
+  "resource_type_general": "Dataset",
+  "resource_type_specific": "iEEG Dataset",
+  "modalities": [
+    "ieeg"
+  ],
+  "sizes": [
+    "43.77 GB (301 files)"
+  ],
+  "formats": [
+    ".eeg",
+    ".hdf",
+    ".joblib",
+    ".json",
+    ".mat",
+    ".md",
+    ".py",
+    ".tsv",
+    ".txt",
+    ".vhdr",
+    ".vmrk",
+    ".xdf",
+    ".yaml",
+    ".yml"
+  ],
+  "source_hash": "3bb37c282a8b248e38fb4edcb6523c9df74dd472d6d9ed6bd8cf3b3dd7331e3f"
 }
