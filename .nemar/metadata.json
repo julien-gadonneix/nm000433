@@ -1,9 +1,9 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
-  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex, acquired on days 2-4 after implantation. The patient performed the CopyDraw task with DBS off, continuous open-loop DBS, and closed-loop adaptive DBS controlled by the Dareplane platform. The dataset serves as a proof of concept for Dareplane, a modular open-source platform for BCI research and closed-loop deep brain stimulation.",
-  "methods_description": "STN local field potentials (16 directional-lead contacts), 4-contact epidural ECoG over left M1 and 4 EOG channels were recorded with a Neuro Omega system at 22 kHz across 41 recordings in three sessions. Conditions were stimulation off, open-loop stimulation on, and closed-loop adaptive stimulation (day 4). Events include hardware port markers and stimulation markers. Auxiliary analog inputs and original XDF/behavioural files are in sourcedata.",
+  "title": "Dold-2025-dareplane-10.1088/1741-2552/adbb20",
+  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex. Data were recorded on days 2-4 after implantation while the patient performed the CopyDraw task with DBS off, with open-loop DBS on, and with closed-loop adaptive DBS run on the Dareplane platform. The dataset accompanies the Dareplane proof-of-concept paper and includes LFP, ECoG and EOG channels, with event markers from port and stimulation channels.",
+  "methods_description": "Neuro Omega recordings at 22 kHz with 24 channels (16 STN LFP contacts, 4 epidural ECoG contacts, 4 EOG channels) were acquired during the CopyDraw task under stimulation-off, open-loop stimulation and closed-loop stimulation conditions. ECoG was referenced to the left earlobe and DBS recordings to the left mastoid. Raw int16 counts were converted to BIDS-iEEG BrainVision format, with port and stimulation markers as events.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -18,32 +18,33 @@
   "keywords": [
     {
       "term": "Deep Brain Stimulation",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D046690"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "Parkinson Disease",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D010300"
-    },
-    {
-      "term": "Subthalamic Nucleus",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D020531"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "Electrocorticography",
-      "subject_scheme": "MeSH",
-      "value_uri": "http://id.nlm.nih.gov/mesh/D000069280"
+      "subject_scheme": "MeSH"
     },
     {
       "term": "local field potential"
     },
     {
-      "term": "closed-loop adaptive DBS"
+      "term": "closed-loop stimulation"
     },
     {
-      "term": "CopyDraw task"
+      "term": "subthalamic nucleus"
+    },
+    {
+      "term": "CopyDraw"
+    },
+    {
+      "term": "iEEG"
+    },
+    {
+      "term": "adaptive DBS"
     },
     {
       "term": "Dareplane"
@@ -64,6 +65,11 @@
       "identifier": "https://nemar.org/dataset/nm000433",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
+    },
+    {
+      "identifier": "10.1088/1741-2552/adbb20",
+      "identifier_type": "DOI",
+      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -71,12 +77,11 @@
       "funder_name": "Dareplane collaboration project, co-funded by the PPP Allowance of Health Holland, Top Sector Life Sciences & Health, and the Dutch Brain Foundation (MD)"
     },
     {
-      "funder_name": "Health Holland, Top Sector Life Sciences & Health (PPP Allowance)",
-      "award_title": "Dareplane collaboration project"
+      "funder_name": "Health Holland, Top Sector Life Sciences & Health",
+      "award_title": "Dareplane collaboration project (PPP Allowance)"
     },
     {
-      "funder_name": "Dutch Brain Foundation",
-      "award_title": "Dareplane collaboration project"
+      "funder_name": "Dutch Brain Foundation"
     },
     {
       "funder_name": "Deutsche Forschungsgemeinschaft",
@@ -113,5 +118,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "3bb37c282a8b248e38fb4edcb6523c9df74dd472d6d9ed6bd8cf3b3dd7331e3f"
+  "source_hash": "3dac34947cc631343a3eeb9c041ec88c53f627248219399072f1030a444f563f"
 }
