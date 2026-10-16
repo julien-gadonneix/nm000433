@@ -2,8 +2,8 @@
   "version": "2.0",
   "pipeline_stage": "validated",
   "title": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
-  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex. Data were recorded on days 2-4 after implantation while the patient performed the CopyDraw task with DBS off, with open-loop DBS on, and with closed-loop adaptive DBS run on the Dareplane platform. The dataset accompanies the Dareplane proof-of-concept paper and includes LFP, ECoG and EOG channels, with event markers from port and stimulation channels.",
-  "methods_description": "Neuro Omega recordings at 22 kHz with 24 channels (16 STN LFP contacts, 4 epidural ECoG contacts, 4 EOG channels) were acquired during the CopyDraw task under stimulation-off, open-loop stimulation and closed-loop stimulation conditions. ECoG was referenced to the left earlobe and DBS recordings to the left mastoid. Raw int16 counts were converted to BIDS-iEEG BrainVision format, with port and stimulation markers as events.",
+  "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex. Data were acquired on days 2-4 after implantation while the patient performed the CopyDraw task with DBS off, with continuous open-loop DBS, and with closed-loop adaptive DBS run on the Dareplane platform. The dataset serves as a proof of concept for the Dareplane modular open-source BCI software platform and includes STN LFP, ECoG, EOG and stimulation/port event markers.",
+  "methods_description": "Neuro Omega recordings at 22 kHz of 16 STN LFP channels (Boston Scientific Vercise directional leads), 4 epidural ECoG contacts over left M1 and 4 EOG channels during the CopyDraw task. Conditions were DBS off, open-loop DBS on, and closed-loop adaptive DBS (day 4). ECoG was referenced to the left earlobe, DBS recordings to the left mastoid, with ground on the right mastoid. Events come from the Neuro Omega hardware port and stimulation marker channels.",
   "license": "CC-BY-4.0",
   "dataset_type": "raw",
   "authors": {
@@ -25,6 +25,10 @@
       "subject_scheme": "MeSH"
     },
     {
+      "term": "Subthalamic Nucleus",
+      "subject_scheme": "MeSH"
+    },
+    {
       "term": "Electrocorticography",
       "subject_scheme": "MeSH"
     },
@@ -32,22 +36,16 @@
       "term": "local field potential"
     },
     {
-      "term": "closed-loop stimulation"
-    },
-    {
-      "term": "subthalamic nucleus"
+      "term": "closed-loop adaptive DBS"
     },
     {
       "term": "CopyDraw"
     },
     {
-      "term": "iEEG"
-    },
-    {
-      "term": "adaptive DBS"
-    },
-    {
       "term": "Dareplane"
+    },
+    {
+      "term": "brain-computer interface"
     }
   ],
   "related_identifiers": [
@@ -65,11 +63,6 @@
       "identifier": "https://nemar.org/dataset/nm000433",
       "identifier_type": "URL",
       "relation_type": "IsDescribedBy"
-    },
-    {
-      "identifier": "10.1088/1741-2552/adbb20",
-      "identifier_type": "DOI",
-      "relation_type": "IsDescribedBy"
     }
   ],
   "funding_references": [
@@ -77,8 +70,8 @@
       "funder_name": "Dareplane collaboration project, co-funded by the PPP Allowance of Health Holland, Top Sector Life Sciences & Health, and the Dutch Brain Foundation (MD)"
     },
     {
-      "funder_name": "Health Holland, Top Sector Life Sciences & Health",
-      "award_title": "Dareplane collaboration project (PPP Allowance)"
+      "funder_name": "Health Holland, Top Sector Life Sciences & Health (PPP Allowance)",
+      "award_title": "Dareplane collaboration project"
     },
     {
       "funder_name": "Dutch Brain Foundation"
@@ -89,7 +82,7 @@
       "award_title": "Walter Benjamin Program"
     },
     {
-      "funder_name": "Bundesministerium für Bildung und Forschung",
+      "funder_name": "Bundesministerium fuer Bildung und Forschung",
       "award_number": "16SV8011",
       "award_title": "PD-Interaktiv I"
     }
