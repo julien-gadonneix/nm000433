@@ -1,7 +1,7 @@
 {
   "version": "2.0",
   "pipeline_stage": "validated",
-  "title": "Dold-2025-dareplane-10.1088/1741-2552/adbb20",
+  "title": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
   "description": "Intracranial recordings from one Parkinson's disease patient with externalised bilateral subthalamic DBS leads and an epidural ECoG strip over left primary motor cortex. Data were recorded on days 2-4 after implantation while the patient performed the CopyDraw task with DBS off, with open-loop DBS on, and with closed-loop adaptive DBS run on the Dareplane platform. The dataset accompanies the Dareplane proof-of-concept paper and includes LFP, ECoG and EOG channels, with event markers from port and stimulation channels.",
   "methods_description": "Neuro Omega recordings at 22 kHz with 24 channels (16 STN LFP contacts, 4 epidural ECoG contacts, 4 EOG channels) were acquired during the CopyDraw task under stimulation-off, open-loop stimulation and closed-loop stimulation conditions. ECoG was referenced to the left earlobe and DBS recordings to the left mastoid. Raw int16 counts were converted to BIDS-iEEG BrainVision format, with port and stimulation markers as events.",
   "license": "CC-BY-4.0",
@@ -118,5 +118,5 @@
     ".yaml",
     ".yml"
   ],
-  "source_hash": "3dac34947cc631343a3eeb9c041ec88c53f627248219399072f1030a444f563f"
+  "source_hash": "f5ccb51f04f4bb9e9dad4a8f2eecbff70ce10525267ab6667a05253b338dbd8f"
 }
