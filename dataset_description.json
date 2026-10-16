@@ -1,5 +1,5 @@
 {
-  "Name": "Dold-2025-dareplane-10.1088/1741-2552/adbb20",
+  "Name": "Dareplane proof of concept: STN LFP, ECoG and EOG during the CopyDraw task with open- and closed-loop DBS (1 Parkinson's disease patient)",
   "BIDSVersion": "1.10.0",
   "DatasetType": "raw",
   "License": "CC-BY-4.0",
@@ -54,5 +54,5 @@
       "Description": "Neuro Omega .mat exports to BIDS-iEEG BrainVision (int16 counts unchanged); events from the Neuro Omega port and stimulation markers; privacy-scrubbed originals in sourcedata. Code in code/."
     }
   ],
-  "Version": "1.0.1"
+  "Version": "1.0.2"
 }
