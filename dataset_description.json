@@ -54,5 +54,5 @@
       "Description": "Neuro Omega .mat exports to BIDS-iEEG BrainVision (int16 counts unchanged); events from the Neuro Omega port and stimulation markers; privacy-scrubbed originals in sourcedata. Code in code/."
     }
   ],
-  "Version": "1.0.2"
+  "Version": "1.0.3"
 }

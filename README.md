@@ -29,7 +29,10 @@ Please acknowledge: "Data were provided (in part) by the Radboud University, Nij
 - Values: the Neuro Omega int16 counts are stored unchanged (BrainVision INT_16); the header resolution is
   BitResolution/Gain = 38.14697265625/55 = 0.6935813210 uV per count (Neuro Omega convention). Note that the
   authors' load_xdf.py treats the raw counts directly as microvolts (no gain); multiply by 55/38.14697265625 to reproduce that.
-  LFP channels saturate (int16 limits) during stimulation; counts per channel are in code/conversion_report.json.
+  LFP channels reach the int16 limits with and without stimulation (up to 3.9% of samples per channel with DBS off,
+  4.3% with open-loop DBS on); counts per channel are in code/conversion_report.json. Channels at |count| >= 32000 for
+  more than 10% of a run are marked `bad` in channels.tsv: all ECoG/EOG in day-4 run-01 (98.7%) and LFP_5/LFP_8 in
+  the 9 day-4 closed-loop runs (17.1-92.7%).
 - Reference and ground (paper): ECoG referenced to the left earlobe, DBS recordings to the left mastoid, ground on the
   right mastoid. Hardware filter settings are not stated (n/a).
 - Auxiliary Neuro Omega analog inputs (CANALOG_IN_1-8, CADD_ANALOG_IN_1-8, 2.75 kHz) are written as separate
